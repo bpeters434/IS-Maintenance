@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_schedule_page">
+    <cmn_schedule_page action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[
+
+// user double-clicked an item    
+function spanDblClicked(event, element, scheduleItem) {
+   var tableName = scheduleItem.getTableName();
+   jslog(event + " dblclicked " + scheduleItem.getTableName());
+   Event.stop(event);
+   if (tableName) {
+      var dialog = new GlidePaneForm(scheduleItem.getDialogTitle(), tableName, document.body);
+      if (scheduleItem.view)
+         dialog.addParm('sysparm_view', scheduleItem.getView());
+      dialog.addParm('sysparm_form_only', 'true');
+      dialog.setSysID(scheduleItem.getID());
+      dialog.setFieldID('scheduleItemId.target');
+      dialog.render();
+      return false;
+   }
+}]]></client_script>
+        <description/>
+        <header_html><![CDATA[<h1>IS Maintenance Calendar</h1>
+<!-- <a id="filter_link" onclick="displayScheduleFilter('incident');">
+   <img src="images/filter_hide.gif"
+      id="incidentfilterdiv_image"
+      width="16px" title="${gs.getMessage('Display / Hide Filters')}"/>
+   ${gs.getMessage('Filters')}
+</a> -->
+<table id="incidentfilters_table" cellSpacing="0" cellPadding="1" border="0" class="filterTable" style="display:none">
+   <tbody id="incidentgcond_filters"></tbody>
+</table>]]></header_html>
+        <init_function/>
+        <name>IS Maintenance</name>
+        <server_script><![CDATA[getMainItem();
+
+function getMainItem() {
+   var startDate = ISMainPage.getParameter("start");
+   var endDate = ISMainPage.getParameter("end");
+
+      var isMain = new GlideRecord("x_8205_is_maintena_is_maintenance_items");
+   isMain.addQuery("start_date", "!=","");
+   isMain.addQuery("active", "true");
+   isMain.addQuery("start_date","<=",endDate);
+   isMain.addQuery("end_date", ">=", startDate);
+
+   isMain.orderBy("start_date");
+   isMain.query();
+   while (isMain.next()) {
+      createItem(isMain);
+   }
+}
+
+function createItem(gr) {
+   var start = gr.start_date.getDisplayValue();
+   var end;
+   if (gr.end_date.nil())
+      end = start;
+   else
+      end = gr.end_date.getDisplayValue();
+
+   var item = ISMainPage.addItem(gr, start, end, '', '');
+   if (!item)
+       return;
+
+   item.setName(gr.number + "</b>: " + gr.short_description);
+   item.setDescription("<span><b>" + gr.number + "</b>: " + gr.short_description + "</span>");
+   
+}]]></server_script>
+        <sys_class_name>cmn_schedule_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-26 16:29:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cbdda4f50f20320035fa8ecce1050eeb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>IS Maintenance</sys_name>
+        <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
+        <sys_update_name>cmn_schedule_page_cbdda4f50f20320035fa8ecce1050eeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-26 16:46:30</sys_updated_on>
+        <type>is_main</type>
+        <view_type>Calendar</view_type>
+    </cmn_schedule_page>
+</record_update>

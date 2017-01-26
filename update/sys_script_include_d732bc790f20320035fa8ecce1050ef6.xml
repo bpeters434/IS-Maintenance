@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_8205_is_maintena.ISMainPage</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ISMainPage</name>
+        <script><![CDATA[var ISMainPage = Class.create();
+ISMainPage.prototype = {
+    initialize: function() {
+    },
+ setPage: function(page) {
+      this.page = page;
+   },
+	
+   getPage: function() {
+	   return this.page;
+   },
+	
+   clear: function() {
+	   this.page.clear();
+   },
+    
+   /**
+   * Get a request parameter
+   */
+   getParameter: function(name) {
+      return this.page.getParameter(name);
+   },
+
+   /**
+    * Get a color based on an id (so that we can get the same color for the id later on)
+    */
+   getColor: function(id) {
+      return this.page.getColor(id);
+   },
+   
+   /**
+    * Darken a color to provide some contrast
+    */
+   darkenColor: function(color) {
+      return this.page.darkenColor(color);   
+   },
+   
+   /**
+    * Add the items for a schedule
+    */
+   addSchedule: function(sysId, color, query, editable) {
+      if (!query) 
+         query = "";
+         
+      if (!color)
+         color = "";
+      
+      var readOnly = !editable;
+      this.page.setReadOnly(readOnly);
+
+      return this.page.addSchedule(sysId, color, query, editable);
+   },
+   
+   /**
+    * Add a schedule span item to the calendar display
+    */
+   addScheduleSpan: function(gr, scheduleTZ, altName, color) {
+      return this.page.addScheduleSpan(gr, scheduleTZ, altName, color);
+   },
+   
+   /**
+    * Add a Schedule object that was returned by createSchedule()
+    */
+   addScheduleObject: function(schedule, name, color) {
+      return this.page.addScheduleObject(schedule, name, color, false);
+   },
+   
+   /**
+    * Add a Schedule object that was returned by createSchedule()
+    * ignoring any items that have the same start and end time
+    */
+   addScheduleObjectIgnoreEmpty: function(schedule, name, color) {
+      return this.page.addScheduleObject(schedule, name, color, true);
+   },
+   
+   /**
+    * Create a schedule object
+    */
+   createSchedule: function(sysId) {
+      return GlideSchedule(sysId + '');
+   },
+   
+   /**
+    * Add a schedule item from a glide record and a start and end date/time
+    * (start and end date/times are passed as a string in yyyy-mm-dd hh:mm:ss format)
+    */
+   addItem: function(record, start, end, altName, color) {
+      if (end == '')
+         end = null;
+      return this.page.addItem(record, start, end, altName, color);
+   },
+    
+   z: null,
+
+    type: 'ISMainPage'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-26 16:43:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d732bc790f20320035fa8ecce1050ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISMainPage</sys_name>
+        <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
+        <sys_update_name>sys_script_include_d732bc790f20320035fa8ecce1050ef6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-26 16:43:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

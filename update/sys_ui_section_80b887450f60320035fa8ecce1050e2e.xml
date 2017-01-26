@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Weekly" section_id="80b887450f60320035fa8ecce1050e2e" sys_domain="global" table="x_8205_is_maintena_is_maintenance" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monday</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>25b8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tuesday</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>a5b8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wednesday</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>29b8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>thursday</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>a9b8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>2db8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>friday</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>adb8db890f60320035fa8ecce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>saturday</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>21b8db890f60320035fa8ecce1050efc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sunday</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 20:54:50</sys_created_on>
+            <sys_id>a1b8db890f60320035fa8ecce1050efc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weekly" display_value="Weekly" name="x_8205_is_maintena_is_maintenance" sys_domain="global" view="Default view">80b887450f60320035fa8ecce1050e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Weekly</caption>
+            <header>false</header>
+            <name>x_8205_is_maintena_is_maintenance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-24 19:44:50</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80b887450f60320035fa8ecce1050e2e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Weekly</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
+            <sys_update_name>sys_ui_section_80b887450f60320035fa8ecce1050e2e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-24 20:54:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

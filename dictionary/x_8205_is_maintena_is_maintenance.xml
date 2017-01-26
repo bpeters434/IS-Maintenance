@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IS Maintenance" max_length="40" name="x_8205_is_maintena_is_maintenance" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Department" max_length="32" name="dept" reference="cmn_department" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Fri" max_length="40" name="friday" type="boolean"/>
+        <element choice="1" label="Item/Activity" max_length="40" name="item_activity" type="choice">
+            <choice>
+                <element label="RHEL" sequence="0" value="RHEL"/>
+                <element label="Epic SU" sequence="1" value="Epic SU"/>
+                <element label="Windows Patch" sequence="2" value="Windows Patch"/>
+                <element label="RCM" sequence="3" value="RCM"/>
+                <element label="DR" sequence="4" value="DR"/>
+                <element label="Failover Activites" sequence="5" value="Failover Activites"/>
+                <element label="Network/Security Changes" sequence="6" value="Network/Security Changes"/>
+            </choice>
+        </element>
+        <element label="Mon" max_length="40" name="monday" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Related Ticket" max_length="32" name="realted_task" reference="task" type="reference"/>
+        <element choice="3" default="no_repeat" label="Repeats" max_length="40" name="repeat" type="choice">
+            <choice>
+                <element label="Does not repeat" sequence="0" value="no_repeat"/>
+                <element label="Daily" sequence="1" value="daily"/>
+                <element label="Monthly" sequence="2" value="monthly"/>
+                <element label="Weekly" sequence="3" value="weekly"/>
+            </choice>
+        </element>
+        <element label="Repeat every" max_length="40" name="repeat_every" type="integer"/>
+        <element label="Repeat until" max_length="40" name="repeat_until" type="glide_date"/>
+        <element label="Sat" max_length="40" name="saturday" type="boolean"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Sun" max_length="40" name="sunday" type="boolean"/>
+        <element label="Thu" max_length="40" name="thursday" type="boolean"/>
+        <element label="Tue" max_length="40" name="tuesday" type="boolean"/>
+        <element label="Wed" max_length="40" name="wednesday" type="boolean"/>
+        <index name="index">
+            <element name="realted_task"/>
+        </index>
+        <index name="index2">
+            <element name="opened_by"/>
+        </index>
+        <index name="index3">
+            <element name="dept"/>
+        </index>
+    </element>
+</database>
