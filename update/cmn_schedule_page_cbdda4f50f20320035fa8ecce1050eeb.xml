@@ -70,7 +70,7 @@ function createItem(gr) {
         <sys_class_name>cmn_schedule_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-26 16:29:23</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cbdda4f50f20320035fa8ecce1050eeb</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>IS Maintenance</sys_name>

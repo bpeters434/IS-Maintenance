@@ -13,7 +13,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:31:40</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>457583050f60320035fa8ecce1050eb2</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -32,7 +31,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:31:48</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>13a5cb810f60320035fa8ecce1050e8f</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -51,7 +49,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:32:19</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>e2c5c3050f60320035fa8ecce1050e86</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -70,7 +67,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:32:10</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>51b50fc10f60320035fa8ecce1050ead</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -84,7 +80,7 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:31:40</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>9fa50f810f60320035fa8ecce1050e8d</sys_id>
+            <sys_id>8a4ee9f51364fe8032eb7e276144b041</sys_id>
             <sys_mod_count>13</sys_mod_count>
             <sys_name>repeat</sys_name>
             <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>

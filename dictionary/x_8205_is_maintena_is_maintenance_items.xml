@@ -2,33 +2,39 @@
 <database>
     <element label="IS Maintenance Items" max_length="40" name="x_8205_is_maintena_is_maintenance_items" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Cancelled" max_length="40" name="cancelled" type="boolean"/>
+        <element label="Cancelled Reason" max_length="4000" name="cancelled_reason" type="string"/>
         <element active="false" label="Department" max_length="32" name="dept" reference="cmn_department" type="reference"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
-        <element label="IS Maintenance" max_length="32" name="is_main" reference="x_8205_is_maintena_is_maintenance" type="reference"/>
+        <element label="ITS Maintenance" max_length="32" name="is_main" read_only="true" reference="x_8205_is_maintena_is_maintenance" type="reference"/>
         <element choice="1" choice_field="item_activity" choice_table="x_8205_is_maintena_is_maintenance" label="Item/Activity" max_length="40" name="item_activity" type="choice">
             <choice>
-                <element label="RHEL" sequence="0" value="RHEL"/>
-                <element label="Epic SU" sequence="1" value="Epic SU"/>
-                <element label="Windows Patch" sequence="2" value="Windows Patch"/>
-                <element label="RCM" sequence="3" value="RCM"/>
                 <element label="DR" sequence="4" value="DR"/>
+                <element label="Epic SU" sequence="1" value="Epic SU"/>
                 <element label="Failover Activites" sequence="5" value="Failover Activites"/>
                 <element label="Network/Security Changes" sequence="6" value="Network/Security Changes"/>
+                <element label="RCM" sequence="3" value="RCM"/>
+                <element label="RHEL" sequence="0" value="RHEL"/>
+                <element label="Windows Patch" sequence="2" value="Windows Patch"/>
             </choice>
         </element>
         <element active="false" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element label="Related Ticket" max_length="32" name="realted_task" reference="task" type="reference"/>
         <element active="false" label="Related Ticket" max_length="32" name="related_task" reference="task" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
         <index name="index">
-            <element name="opened_by"/>
+            <element name="realted_task"/>
         </index>
         <index name="index2">
-            <element name="is_main"/>
+            <element name="opened_by"/>
         </index>
         <index name="index3">
-            <element name="related_task"/>
+            <element name="is_main"/>
         </index>
         <index name="index4">
+            <element name="related_task"/>
+        </index>
+        <index name="index5">
             <element name="dept"/>
         </index>
     </element>

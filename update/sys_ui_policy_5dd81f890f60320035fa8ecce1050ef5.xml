@@ -28,9 +28,8 @@
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 20:57:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>5dd81f890f60320035fa8ecce1050ef5</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Show Weekly tab</sys_name>

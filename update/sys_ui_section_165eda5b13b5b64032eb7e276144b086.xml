@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="165eda5b13b5b64032eb7e276144b086" sys_domain="global" table="x_8205_is_maintena_is_maintenance_items" version="3" view="PopUp">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_activity</element>
+            <position>0</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>9a5eda5b13b5b64032eb7e276144b086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_main.dept</element>
+            <position>1</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>1e5eda5b13b5b64032eb7e276144b086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>2</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>9e5eda5b13b5b64032eb7e276144b086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_main</element>
+            <position>3</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>125eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>925eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_main.opened_by</element>
+            <position>5</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>165eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>realted_task</element>
+            <position>6</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>965eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>7</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>1a5eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>9a5eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cancelled</element>
+            <position>9</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>1e5eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cancelled_reason</element>
+            <position>10</position>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_id>9e5eda5b13b5b64032eb7e276144b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8205_is_maintena_is_maintenance_items" sys_domain="global" view="da5eda5b13b5b64032eb7e276144b085">165eda5b13b5b64032eb7e276144b086</sys_ui_section>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_8205_is_maintena_is_maintenance_items</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-03 19:44:39</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>165eda5b13b5b64032eb7e276144b086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_8205_is_maintena_is_maintenance_items</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
+            <sys_update_name>sys_ui_section_165eda5b13b5b64032eb7e276144b086</sys_update_name>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-03 19:44:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="PopUp" name="PopUp">da5eda5b13b5b64032eb7e276144b085</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

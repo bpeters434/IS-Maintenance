@@ -13,7 +13,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:20:11</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>6003c3010f20320035fa8ecce1050e02</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -32,7 +31,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:20:39</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>1b03c3010f20320035fa8ecce1050e02</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -51,7 +49,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:21:03</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>5a2307810f60320035fa8ecce1050e9e</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -70,7 +67,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:21:20</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>b3338f050f20320035fa8ecce1050eb3</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -89,7 +85,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:21:37</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>9853c7810f60320035fa8ecce1050e64</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -108,7 +103,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:22:15</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>5c6387810f60320035fa8ecce1050e25</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -127,12 +121,29 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:23:32</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>9eb34b810f60320035fa8ecce1050ed3</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-24 19:29:27</sys_updated_on>
             <value>Network/Security Changes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>item_activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trauma Schedule</label>
+            <language>en</language>
+            <name>x_8205_is_maintena_is_maintenance</name>
+            <sequence>7</sequence>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2017-04-25 20:11:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a0977f9a131a760032eb7e276144b0e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-25 20:11:57</sys_updated_on>
+            <value>Trauma Schedule</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>item_activity</element>
@@ -141,16 +152,16 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-24 19:20:11</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>43034b410f20320035fa8ecce1050e5a</sys_id>
-            <sys_mod_count>23</sys_mod_count>
+            <sys_id>464ee9f51364fe8032eb7e276144b02d</sys_id>
+            <sys_mod_count>24</sys_mod_count>
             <sys_name>item_activity</sys_name>
             <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
             <sys_update_name>sys_choice_x_8205_is_maintena_is_maintenance_item_activity</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-24 19:24:18</sys_updated_on>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2017-04-25 20:11:57</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

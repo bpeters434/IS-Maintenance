@@ -4,7 +4,6 @@
         <assignable_by/>
         <can_delegate>true</can_delegate>
         <description/>
-        <elevated_privilege>false</elevated_privilege>
         <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
@@ -13,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 21:59:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>458767cd0f60320035fa8ecce1050e3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_8205_is_maintena_is_maintenance_items_user</sys_name>
