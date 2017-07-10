@@ -52,7 +52,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2017-04-03 17:59:17</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>30068a1f1375b64032eb7e276144b01e</sys_id>
         <sys_mod_count>2</sys_mod_count>

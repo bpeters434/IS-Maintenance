@@ -30,7 +30,7 @@ current.update();]]></script>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2017-04-03 18:29:44</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>eedc0e5313b5b64032eb7e276144b0b3</sys_id>
         <sys_mod_count>0</sys_mod_count>

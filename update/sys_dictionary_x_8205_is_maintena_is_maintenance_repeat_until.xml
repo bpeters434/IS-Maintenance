@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="repeat_until" table="x_8205_is_maintena_is_maintenance">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {
@@ -52,7 +53,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 19:37:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>863e69f51364fe8032eb7e276144b0ef</sys_id>
+        <sys_id>6fd154661353720032eb7e276144b0f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Repeat until</sys_name>
         <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
@@ -61,7 +62,7 @@
         <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
         <sys_update_name>sys_dictionary_x_8205_is_maintena_is_maintenance_repeat_until</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-01-26 21:05:14</sys_updated_on>
+        <sys_updated_on>2017-06-14 15:09:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_model_id/>

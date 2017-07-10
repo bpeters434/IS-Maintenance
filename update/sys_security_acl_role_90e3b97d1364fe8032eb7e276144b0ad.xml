@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2017-01-26 21:30:30</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>90e3b97d1364fe8032eb7e276144b0ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_8205_is_maintena_is_maintenance.itil</sys_name>

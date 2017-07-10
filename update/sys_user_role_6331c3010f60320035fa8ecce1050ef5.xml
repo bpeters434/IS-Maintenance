@@ -4,7 +4,6 @@
         <assignable_by/>
         <can_delegate>true</can_delegate>
         <description/>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_8205_is_maintena_is_maintenance_user</name>

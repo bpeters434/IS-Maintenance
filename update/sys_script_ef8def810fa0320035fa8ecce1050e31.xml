@@ -62,7 +62,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 22:25:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ef8def810fa0320035fa8ecce1050e31</sys_id>
         <sys_mod_count>6</sys_mod_count>

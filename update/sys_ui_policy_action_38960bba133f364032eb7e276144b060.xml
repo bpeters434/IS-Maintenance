@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>cancelled_reason</field>
-        <mandatory>true</mandatory>
+        <field>repeat</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
-        <sys_created_on>2017-04-03 17:57:54</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>7fd5c61f1375b64032eb7e276144b0dc</sys_id>
+        <sys_created_on>2017-07-10 19:29:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>38960bba133f364032eb7e276144b060</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>cancelled_reason</sys_name>
+        <sys_name>repeat</sys_name>
         <sys_package display_value="IS Maintenance" source="x_8205_is_maintena">ce4292010f20320035fa8ecce1050eba</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IS Maintenance">ce4292010f20320035fa8ecce1050eba</sys_scope>
-        <sys_update_name>sys_ui_policy_action_7fd5c61f1375b64032eb7e276144b0dc</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_38960bba133f364032eb7e276144b060</sys_update_name>
         <sys_updated_by>PeteBL</sys_updated_by>
-        <sys_updated_on>2017-04-03 17:57:54</sys_updated_on>
+        <sys_updated_on>2017-07-10 19:29:12</sys_updated_on>
         <table>x_8205_is_maintena_is_maintenance</table>
-        <ui_policy display_value="Reason of cancellation">90c5861f1375b64032eb7e276144b0ac</ui_policy>
-        <visible>true</visible>
+        <ui_policy display_value="Hide the repeats field">677687ba133f364032eb7e276144b005</ui_policy>
+        <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>

@@ -9,14 +9,15 @@
         <element label="Fri" max_length="40" name="friday" type="boolean"/>
         <element choice="1" label="Item/Activity" max_length="40" name="item_activity" type="choice">
             <choice>
-                <element label="DR" sequence="4" value="DR"/>
+                <element label="RHEL" sequence="0" value="RHEL"/>
                 <element label="Epic SU" sequence="1" value="Epic SU"/>
+                <element label="Windows Patch" sequence="2" value="Windows Patch"/>
+                <element label="RCM" sequence="3" value="RCM"/>
+                <element label="DR" sequence="4" value="DR"/>
                 <element label="Failover Activites" sequence="5" value="Failover Activites"/>
                 <element label="Network/Security Changes" sequence="6" value="Network/Security Changes"/>
-                <element label="RCM" sequence="3" value="RCM"/>
-                <element label="RHEL" sequence="0" value="RHEL"/>
                 <element label="Trauma Schedule" sequence="7" value="Trauma Schedule"/>
-                <element label="Windows Patch" sequence="2" value="Windows Patch"/>
+                <element label="Recompose" sequence="8" value="Recompose"/>
             </choice>
         </element>
         <element label="Mon" max_length="40" name="monday" type="boolean"/>
